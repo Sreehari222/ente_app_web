@@ -65,12 +65,12 @@ const SingleStore = ({ store }: { store: StoreType }) => {
             >
               Call Now
             </a>
-
-            <a
+              <a
               href={`https://wa.me/${whatsapp}`}
               target="_blank"
+              rel="noopener noreferrer"
               className="rounded bg-green-600 px-4 py-2 text-sm font-medium text-white duration-300 hover:bg-opacity-90"
-            >
+              >
               WhatsApp
             </a>
           </div>
